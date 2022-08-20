@@ -31,9 +31,8 @@ export class AuthEffects {
     , { dispatch: false });
 
 
-  constructor(private actions$: Actions,
-    private router: Router) {
-
-  }
+  constructor(
+    private actions$: Actions,
+    private router: Router) { }
 
 }
